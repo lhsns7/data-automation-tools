@@ -33,3 +33,5 @@ demo_backups/
 demo_broadcasts.csv
 sentinel.db*
 jobs.json
+price_history.db*
+price_state.json
