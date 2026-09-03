@@ -19,3 +19,6 @@ _shots/
 *_구조화.xlsx
 demo_target_*/
 orders_state.json
+send_ledger*.json
+demo_recipients.csv
+demo_attach.txt
