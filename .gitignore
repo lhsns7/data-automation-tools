@@ -25,3 +25,4 @@ demo_attach.txt
 demo_master.csv
 bookings.db*
 notify.log
+tg_pending.json
