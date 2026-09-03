@@ -23,3 +23,5 @@ send_ledger*.json
 demo_recipients.csv
 demo_attach.txt
 demo_master.csv
+bookings.db*
+notify.log
