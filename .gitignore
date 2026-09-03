@@ -26,3 +26,5 @@ demo_master.csv
 bookings.db*
 notify.log
 tg_pending.json
+demo_old.csv
+demo_new_*.csv
