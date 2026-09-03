@@ -23,6 +23,7 @@
 | [`tools/sensor_logger`](tools/sensor_logger) | 측정값 스트림 → SQLite 저장 + 결측·이상값·정체 자동 감시 | **심어둔 결함 9/9 검출·오탐 0** · 유실 0 · 재실행 중복 0 |
 | [`tools/webform_filler`](tools/webform_filler) | CSV 목록을 웹 폼에 자동 입력·제출 (검수 모드 내장) | 서버 기록과 **필드 전수 대조 30/30** · 필수 누락은 제출 금지·격리 |
 | [`tools/voucher_convert`](tools/voucher_convert) | 주문 내역 → 회계 전표(분개) 변환 (부가세 역산·면세·환불 역분개) | **차대 균형 56/56** · 부가세 항등 전수 · 조작 검출 |
+| [`tools/order_hub`](tools/order_hub) | 여러 오픈마켓 주문 API → 표준 주문 대장 통합. 형식(필드·날짜·금액·페이징·상태어휘) 차이를 어댑터가 흡수, 증분·상태변화 추적 | 서버 기록 **71건×8필드 전수 대조 불일치 0** · 심은 신규 6·변화 5 정확 검출 · 장애 마켓 격리 |
 
 ## 공용 모듈 (`core/`)
 

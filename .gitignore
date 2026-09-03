@@ -18,3 +18,4 @@ _shots/
 *.log
 *_구조화.xlsx
 demo_target_*/
+orders_state.json
