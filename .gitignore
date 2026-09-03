@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+demo_docs/
+demo_pdfs/
+demo_sales.csv
+demo_orders*.csv
+*.xlsx
+dashboard_demo.html
+_*.png
+_truth.json
+state.json
+seen.json
+ai_cache.json
