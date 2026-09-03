@@ -36,3 +36,6 @@ jobs.json
 price_history.db*
 price_state.json
 demo_inbox/
+demo_v1.txt
+demo_v2.txt
+diff_report.html
