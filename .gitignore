@@ -17,3 +17,4 @@ config.txt
 _shots/
 *.log
 *_구조화.xlsx
+demo_target_*/
