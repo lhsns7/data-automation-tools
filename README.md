@@ -15,11 +15,16 @@
 | [`tools/settle_report`](tools/settle_report) | 거래내역 → 파트너별 정산서. 수수료·환불·원천징수(소액부징수)·부가세까지 규칙 계산 | **2단 대사 0원** · 독립 손검산 일치 · 조작 검출 |
 | [`tools/csv_dashboard`](tools/csv_dashboard) | CSV → 서버·설치 없이 열리는 단일 HTML 대시보드 (KPI·차트·검색 테이블) | 수치 독립 재집계 전수 대조 · 실브라우저 렌더 검증 |
 | [`tools/pdf_excel`](tools/pdf_excel) | 거래명세서 PDF 묶음 → 정리 엑셀. 품목합계 vs 인쇄합계 자동 대조 | 왕복 대조 문서 12/12 · 품목 **70/70** (멀티페이지 포함) |
+| [`tools/macro_filler`](tools/macro_filler) | 표(CSV)의 각 행을 데스크톱 프로그램에 반복 입력하는 매크로. 창 확인·포커스 검사·비상정지·저장 내용 대조 | **100건 실측 99/100** · 경계값 24/24 · 오입력 0 (실패 시 입력 안 보내고 중단) |
+| [`tools/ai_structure`](tools/ai_structure) | 지저분한 CSV → 분류·정규화·집계·요약 서식 엑셀 (규칙→학습ML→LLM 3티어) | 재현성 OK · 유료 호출 게이트 차단 증명 · 분류 근거 기록 |
+| [`tools/excel_vba`](tools/excel_vba) | 엑셀 VBA 매크로 3종 (시트 통합·데이터 정리·그룹 집계) | LibreOffice 검증 **8/8** ([VERIFY.md](tools/excel_vba/VERIFY.md)) |
 
 ## 공용 모듈 (`core/`)
 
 - `xlsx.py` — 서식 엑셀 출력 (요약 시트, 앞자리 0 보존)
 - `ai.py` — LLM 호출층. **승인·호출상한·자격 게이트를 전부 통과해야만 유료 호출** + 캐시·사전 비용 견적(dry-run)
+- `ml.py` — 학습 분류기 (TF-IDF + XGBoost, 홀드아웃 평가, 저장/로드)
+- `gui.py` — 데스크톱 매크로 안전 골격 (이미지·창 기준, 포커스 검사, 비상정지, 결과 내용 대조)
 - `watch.py` — 변경 감시 엔진 (스냅샷→diff→중복 제거→실패 시 보류 재송)
 
 ## 실행

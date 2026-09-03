@@ -11,3 +11,9 @@ _truth.json
 state.json
 seen.json
 ai_cache.json
+config.txt
+입력목록.csv
+결과/
+_shots/
+*.log
+*_구조화.xlsx
