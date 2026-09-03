@@ -35,3 +35,4 @@ sentinel.db*
 jobs.json
 price_history.db*
 price_state.json
+demo_inbox/
