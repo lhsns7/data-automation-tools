@@ -21,6 +21,7 @@
 | [`tools/weekly_report`](tools/weekly_report) | 판매 내역 → 주간 성과 리포트 (전주 대비·채널별·상위 상품) | 독립 재집계 일치 · **주차 경계(일/월) 정확 분리** · 없는 주 "데이터 없음" 정직 표기 |
 | [`tools/sensor_logger`](tools/sensor_logger) | 측정값 스트림 → SQLite 저장 + 결측·이상값·정체 자동 감시 | **심어둔 결함 9/9 검출·오탐 0** · 유실 0 · 재실행 중복 0 |
 | [`tools/webform_filler`](tools/webform_filler) | CSV 목록을 웹 폼에 자동 입력·제출 (검수 모드 내장) | 서버 기록과 **필드 전수 대조 30/30** · 필수 누락은 제출 금지·격리 |
+| [`tools/voucher_convert`](tools/voucher_convert) | 주문 내역 → 회계 전표(분개) 변환 (부가세 역산·면세·환불 역분개) | **차대 균형 56/56** · 부가세 항등 전수 · 조작 검출 |
 
 ## 공용 모듈 (`core/`)
 
