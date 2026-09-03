@@ -18,6 +18,7 @@
 | [`tools/macro_filler`](tools/macro_filler) | 표(CSV)의 각 행을 데스크톱 프로그램에 반복 입력하는 매크로. 창 확인·포커스 검사·비상정지·저장 내용 대조 | **100건 실측 99/100** · 경계값 24/24 · 오입력 0 (실패 시 입력 안 보내고 중단) |
 | [`tools/ai_structure`](tools/ai_structure) | 지저분한 CSV → 분류·정규화·집계·요약 서식 엑셀 (규칙→학습ML→LLM 3티어) | 재현성 OK · 유료 호출 게이트 차단 증명 · 분류 근거 기록 |
 | [`tools/excel_vba`](tools/excel_vba) | 엑셀 VBA 매크로 3종 (시트 통합·데이터 정리·그룹 집계) | LibreOffice 검증 **8/8** ([VERIFY.md](tools/excel_vba/VERIFY.md)) |
+| [`tools/weekly_report`](tools/weekly_report) | 판매 내역 → 주간 성과 리포트 (전주 대비·채널별·상위 상품) | 독립 재집계 일치 · **주차 경계(일/월) 정확 분리** · 없는 주 "데이터 없음" 정직 표기 |
 
 ## 공용 모듈 (`core/`)
 
