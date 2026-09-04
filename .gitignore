@@ -44,3 +44,8 @@ demo_pos.csv
 demo_deposits.csv
 invoices.db
 청구서_*.html
+demo_stock.db
+demo_health.json
+board_history.json
+운영대시보드_데모.html
+ops_board.html

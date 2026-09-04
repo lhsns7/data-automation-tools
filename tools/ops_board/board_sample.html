@@ -1,0 +1,25 @@
+<meta charset="utf-8"><title>운영 대시보드</title>
+<style>body{font-family:'Malgun Gothic',sans-serif;background:#f2f4f8;margin:0;padding:26px}
+h1{font-size:20px;margin:0 0 4px}.sub{color:#5b6472;font-size:13px;margin-bottom:16px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:14px}
+.card{background:#fff;border:1px solid #dfe4ea;border-radius:12px;padding:16px}
+.card.alert{border:2px solid #b4232c;background:#fff7f7}
+.nm{font-size:13px;color:#5b6472;font-weight:700}.val{font-size:26px;font-weight:900;margin:4px 0 6px}
+.ft{font-size:11.5px;color:#8b95a3;margin-top:6px}.bad{color:#b4232c;font-weight:800}
+.ok{color:#15803d;font-weight:700}.stale{color:#b45309;font-weight:800}
+.stalebar{background:#fff3e0;border:1px solid #f3d9a4;border-radius:9px;padding:9px 13px;font-size:13px;margin-bottom:14px}</style>
+<h1>운영 대시보드 <span style="font-size:13px;color:#b4232c">경보 2건</span></h1>
+<div class="sub">갱신 2026-09-04 12:00 · 지표 6개 · 서버 불필요(단일 파일)</div>
+<div class="stalebar">⏳ 스테일 소스: demo_health.json (데이터 나이 48시간 &gt; 24h)</div><div class="grid"><div class="card">
+<div class="nm">일 주문 수</div><div class="val">23</div>
+<svg width="110" height="26"><polyline points="2.0,23.0 37.3,23.0 72.7,23.0 108.0,23.0" fill="none" stroke="#0c4a6e" stroke-width="2"/><circle cx="108.0" cy="23.0" r="2.5" fill="#0c4a6e"/></svg><div class="ft"><span class="ok">정상</span> · 데이터 <span class="age">0.1h</span> · demo_orders.csv</div></div><div class="card">
+<div class="nm">일 매출(원)</div><div class="val">276,000</div>
+<svg width="110" height="26"><polyline points="2.0,23.0 37.3,23.0 72.7,23.0 108.0,23.0" fill="none" stroke="#0c4a6e" stroke-width="2"/><circle cx="108.0" cy="23.0" r="2.5" fill="#0c4a6e"/></svg><div class="ft"><span class="ok">정상</span> · 데이터 <span class="age">0.1h</span> · demo_orders.csv</div></div><div class="card alert">
+<div class="nm">재고 부족 SKU</div><div class="val">4</div>
+<svg width="110" height="26"><polyline points="2.0,23.0 37.3,23.0 72.7,23.0 108.0,23.0" fill="none" stroke="#0c4a6e" stroke-width="2"/><circle cx="108.0" cy="23.0" r="2.5" fill="#0c4a6e"/></svg><div class="ft"><span class="bad">🚨 상한 3 초과</span> · 데이터 <span class="age">0.1h</span> · demo_stock.db</div></div><div class="card">
+<div class="nm">총 재고 수량</div><div class="val">127</div>
+<svg width="110" height="26"><polyline points="2.0,23.0 37.3,23.0 72.7,23.0 108.0,23.0" fill="none" stroke="#0c4a6e" stroke-width="2"/><circle cx="108.0" cy="23.0" r="2.5" fill="#0c4a6e"/></svg><div class="ft"><span class="ok">정상</span> · 데이터 <span class="age">0.1h</span> · demo_stock.db</div></div><div class="card">
+<div class="nm">서버 오류(24h)</div><div class="val">2</div>
+<svg width="110" height="26"><polyline points="2.0,23.0 37.3,23.0 72.7,23.0 108.0,23.0" fill="none" stroke="#0c4a6e" stroke-width="2"/><circle cx="108.0" cy="23.0" r="2.5" fill="#0c4a6e"/></svg><div class="ft"><span class="ok">정상</span> · 데이터 <span class="stale">⏳ 48.0h</span> · demo_health.json</div></div><div class="card alert">
+<div class="nm">평균 응답(ms)</div><div class="val">720</div>
+<svg width="110" height="26"><polyline points="2.0,23.0 37.3,23.0 72.7,23.0 108.0,23.0" fill="none" stroke="#0c4a6e" stroke-width="2"/><circle cx="108.0" cy="23.0" r="2.5" fill="#0c4a6e"/></svg><div class="ft"><span class="bad">🚨 상한 500 초과</span> · 데이터 <span class="stale">⏳ 48.0h</span> · demo_health.json</div></div></div>
