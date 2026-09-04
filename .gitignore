@@ -49,3 +49,6 @@ demo_health.json
 board_history.json
 운영대시보드_데모.html
 ops_board.html
+demo_customers.csv
+masked_*.csv
+pseudonym_map.csv
