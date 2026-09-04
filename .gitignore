@@ -42,3 +42,5 @@ diff_report.html
 demo_tree/
 demo_pos.csv
 demo_deposits.csv
+invoices.db
+Invoice_*.html
