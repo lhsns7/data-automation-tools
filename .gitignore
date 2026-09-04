@@ -54,3 +54,4 @@ masked_*.csv
 pseudonym_map.csv
 demo_day*.log
 digest_snapshot.json
+pulse_state.json
