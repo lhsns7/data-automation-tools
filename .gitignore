@@ -43,4 +43,4 @@ demo_tree/
 demo_pos.csv
 demo_deposits.csv
 invoices.db
-Invoice_*.html
+청구서_*.html
