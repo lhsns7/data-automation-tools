@@ -59,3 +59,6 @@ demo_ko.json
 demo_en.json
 demo_ja.json
 demo_orders_*.csv
+demo_mails/
+demo_saved/
+inbox_ledger.json
