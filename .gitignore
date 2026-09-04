@@ -62,3 +62,5 @@ demo_orders_*.csv
 demo_mails/
 demo_saved/
 inbox_ledger.json
+demo_files/
+demo_files_conflict/
