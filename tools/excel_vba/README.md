@@ -1,4 +1,4 @@
-# macros.bas의 VBA 매크로를 LibreOffice
+# macros.bas의 VBA 매크로를 LibreOffice(VBA 호환)로 실증.
 
 ## 이 도구가 하는 일 (비개발자용)
 ★반드시 LibreOffice 번들 파이썬으로 실행: "C:\\Program Files\\LibreOffice\\program\\python.exe" verify_lo.py
